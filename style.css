@@ -48,7 +48,7 @@ body {
   font-size: 32px;
   color: #212529;
   align-self: flex-end;
-  margin: 0 10px 10px 0;
+  margin: 0 10px 10px 10px;
 }
 
 .buttons {
