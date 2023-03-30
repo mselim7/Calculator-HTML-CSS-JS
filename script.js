@@ -72,7 +72,8 @@ document.getElementById('equal').addEventListener('click', function () {
 
   console.log('fe' + size.length);
   let n1 = '',
-    n2 = '';
+    n2 = '',
+    res = '';
   for (let i = 0; i < size.length; i++) {
     if (
       (size[i] === '÷') |
@@ -85,16 +86,17 @@ document.getElementById('equal').addEventListener('click', function () {
     }
     if ((size[i] === '+') | (size[i] === '-')) {
       if (size[i] === '+') {
-        document.querySelector('.result').value = n1 + n2;
+        res = n1 + n2;
       } else if (size[i] === '-') {
-        document.querySelector('.result').value = n1 - n2;
+        res = n1 - n2;
       }
     } else if ((size[i] === '×') | (size[i] === '÷')) {
       if (size[i] === '×') {
-        document.querySelector('.result').value = n1 * n2;
+        res = n1 * n2;
       } else if (size[i] === '÷') {
-        document.querySelector('.result').value = n1 / n2;
+        res = n1 / n2;
       }
     }
   }
+  document.querySelector('.problem').value = res;
 });
