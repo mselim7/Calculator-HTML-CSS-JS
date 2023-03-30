@@ -1,16 +1,16 @@
 'use strict';
 let size = document.querySelector('.problem').value;
 
-document.getElementById('7').addEventListener('click', function () {
-  document.querySelector('.problem').value += '7';
+document.getElementById('9').addEventListener('click', function () {
+  document.querySelector('.problem').value += '9';
   size = document.querySelector('.problem').value;
 });
 document.getElementById('8').addEventListener('click', function () {
   document.querySelector('.problem').value += '8';
   size = document.querySelector('.problem').value;
 });
-document.getElementById('9').addEventListener('click', function () {
-  document.querySelector('.problem').value += '9';
+document.getElementById('7').addEventListener('click', function () {
+  document.querySelector('.problem').value += '7';
   size = document.querySelector('.problem').value;
 });
 document.getElementById('6').addEventListener('click', function () {
