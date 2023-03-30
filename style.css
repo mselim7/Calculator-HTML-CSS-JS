@@ -14,8 +14,8 @@ body {
   grid-template-rows: 1fr 2fr;
 }
 .background-2 {
-  width: 572px;
-  height: 165px;
+  width: 100%;
+  height: auto;
   background-color: #495057;
   display: flex;
   justify-content: center;
@@ -23,28 +23,34 @@ body {
   border-radius: 25px 25px 0px 0px;
 }
 .screen {
-  width: 518px;
+  width: 520px;
   height: 127px;
   background: #ced4da;
   border-radius: 20px;
   display: flex;
 }
 .problem {
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-weight: 600;
   align-self: flex-start;
   color: #212529;
-  flex-grow: 1;
+  border: none;
+  width: 75%;
+  background-color: transparent;
+  justify-self: center;
+  align-self: center;
+  flex-grow: 0;
   font-size: 32px;
   margin-left: 10px;
 }
 .result {
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-weight: 600;
   font-size: 32px;
   color: #212529;
   align-self: flex-end;
   margin: 0 10px 10px 0;
+  width: 95px;
 }
 
 .buttons {
@@ -91,7 +97,7 @@ button {
   -webkit-text-stroke-color: black;
   border: none;
   border-radius: 20px;
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 50px;
   line-height: 44px;
   color: white;
