@@ -27,7 +27,7 @@ body {
   height: 127px;
   background: #ced4da;
   border-radius: 20px;
-  display: flex;
+  display: grid;
 }
 .problem {
   font-family: 'Orbitron', sans-serif;
@@ -35,7 +35,6 @@ body {
   align-self: flex-start;
   color: #212529;
   border: none;
-  width: 75%;
   background-color: transparent;
   justify-self: center;
   align-self: center;
@@ -50,7 +49,6 @@ body {
   color: #212529;
   align-self: flex-end;
   margin: 0 10px 10px 0;
-  width: 95px;
 }
 
 .buttons {
