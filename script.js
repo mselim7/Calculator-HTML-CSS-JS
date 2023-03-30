@@ -64,7 +64,6 @@ document.getElementById('dot').addEventListener('click', function () {
 });
 document.getElementById('c').addEventListener('click', function () {
   document.querySelector('.problem').value = '';
-  document.querySelector('.result').value = 0;
 });
 document.getElementById('equal').addEventListener('click', function () {
   console.log(document.querySelector('.problem').value);
