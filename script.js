@@ -1,6 +1,5 @@
 'use strict';
 let size = document.querySelector('.problem').value;
-
 document.getElementById('9').addEventListener('click', function () {
   document.querySelector('.problem').value += '9';
   size = document.querySelector('.problem').value;
@@ -62,14 +61,13 @@ document.getElementById('dot').addEventListener('click', function () {
   document.querySelector('.problem').value += '.';
   size = document.querySelector('.problem').value;
 });
+console.log(size);
 document.getElementById('c').addEventListener('click', function () {
   document.querySelector('.problem').value = '';
 });
 document.getElementById('equal').addEventListener('click', function () {
-  console.log(document.querySelector('.problem').value);
   size = document.querySelector('.problem').value;
 
-  console.log('fe' + size.length);
   let n1 = '',
     n2 = '',
     res = '';
