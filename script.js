@@ -64,7 +64,7 @@ document.getElementById('dot').addEventListener('click', function () {
 });
 document.getElementById('c').addEventListener('click', function () {
   document.querySelector('.problem').value = '';
-  document.querySelector('.result').textContent = 0;
+  document.querySelector('.result').value = 0;
 });
 document.getElementById('equal').addEventListener('click', function () {
   console.log(document.querySelector('.problem').value);
@@ -85,15 +85,15 @@ document.getElementById('equal').addEventListener('click', function () {
     }
     if ((size[i] === '+') | (size[i] === '-')) {
       if (size[i] === '+') {
-        document.querySelector('.result').textContent = n1 + n2;
+        document.querySelector('.result').value = n1 + n2;
       } else if (size[i] === '-') {
-        document.querySelector('.result').textContent = n1 - n2;
+        document.querySelector('.result').value = n1 - n2;
       }
     } else if ((size[i] === '×') | (size[i] === '÷')) {
       if (size[i] === '×') {
-        document.querySelector('.result').textContent = n1 * n2;
+        document.querySelector('.result').value = n1 * n2;
       } else if (size[i] === '÷') {
-        document.querySelector('.result').textContent = n1 / n2;
+        document.querySelector('.result').value = n1 / n2;
       }
     }
   }

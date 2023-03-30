@@ -32,22 +32,19 @@ body {
 .problem {
   font-family: 'Orbitron', sans-serif;
   font-weight: 600;
-  align-self: flex-start;
   color: #212529;
   border: none;
   background-color: transparent;
-  justify-self: center;
-  align-self: center;
-  flex-grow: 0;
   font-size: 32px;
-  margin-left: 10px;
+  margin: 10px;
 }
 .result {
   font-family: 'Orbitron', sans-serif;
   font-weight: 600;
   font-size: 32px;
+  background-color: transparent;
+  border: none;
   color: #212529;
-  align-self: flex-end;
   margin: 0 10px 10px 10px;
 }
 
