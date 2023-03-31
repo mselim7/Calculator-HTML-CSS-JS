@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 750px;
+  min-height: 100vh;
 }
 .background-1 {
   width: 572px;
@@ -88,7 +88,7 @@ body {
 }
 
 button {
-  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-width: 1.75px;
   -webkit-text-stroke-color: black;
   border: none;
   border-radius: 20px;
