@@ -87,7 +87,7 @@ button {
   font-family: 'Orbitron', sans-serif;
   font-size: 50px;
   line-height: 44px;
-  color: white;
+  color: #343a40;
 }
 button:hover {
   background-color: #ced4da;
