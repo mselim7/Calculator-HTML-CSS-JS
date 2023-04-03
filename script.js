@@ -15,7 +15,7 @@ const plus = document.getElementById('plus');
 const minus = document.getElementById('minus');
 const mult = document.getElementById('mult');
 const divd = document.getElementById('divd');
-const prop = document.querySelector('.problem');
+let prop = document.querySelector('.problem');
 let size = prop.value;
 
 num9.addEventListener('click', function () {
